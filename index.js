@@ -118,7 +118,7 @@ connectToDb();
         }  
       }),
     });
-  await crawler.queue('https://podcasts.apple.com/us/podcast/99-invisible/id394775318');
+  await crawler.queue('https://podcasts.apple.com/us/genre/podcasts/id26');
   await crawler.onIdle();
   await crawler.close();
 })();
