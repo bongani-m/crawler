@@ -8,7 +8,7 @@ const connectToDb = async () => {
     let dbPort = config.dbPort;
     let dbName = config.dbName;
     try {
-        await Mongoose.connect(`mongodb://adminUser:admin@${dbHost}:${dbPort}/${dbName}?authSource=admin`);
+        await Mongoose.connect(`mongodb://superAdmin:admin123@${dbHost}:${dbPort}/${dbName}?authSource=admin`);
         console.log('Connected to mongo!!!');
     }
     catch (err) {
