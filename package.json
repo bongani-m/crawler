@@ -1,0 +1,20 @@
+{
+  "name": "crawler",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "DEBUG='hccrawler:*' node index.js",
+    "test": "node index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "headless-chrome-crawler": "^1.8.0",
+    "jsdom": "^15.2.0",
+    "mongoose": "4.7.7",
+    "parse-rss": "^1.0.3",
+    "redis": "^2.8.0"
+  }
+}
